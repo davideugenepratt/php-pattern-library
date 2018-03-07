@@ -9,3 +9,4 @@ sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 sudo cp /vagrant/vagrant/provision/php/php.ini /etc/php/7.0/fpm/php.ini
+
