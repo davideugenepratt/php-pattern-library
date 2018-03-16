@@ -1,6 +1,7 @@
 {
-  "name": "davideugenepratt/m2-theme-pattern-library",
+  "name": "davideugenepratt/php-pattern-library",
   "description": "An integration of pattern-lab pattern library and a magento 2 theme.",
+  "version" : "v0.1.0",
   "require": {
     "php": "^5.3.3 || ^7.0"
   }

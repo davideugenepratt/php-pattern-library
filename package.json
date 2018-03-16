@@ -1,0 +1,25 @@
+{
+  "name": "php-pattern-library",
+  "version": "0.1.0",
+  "description": "A boilerplate pattern library that can be used for Magento and WordPress sites. Includes Magento2 and WordPress support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideugenepratt/php-pattern-library.git"
+  },
+  "author": "David Eugene Pratt",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/davideugenepratt/php-pattern-library/issues"
+  },
+  "homepage": "https://github.com/davideugenepratt/php-pattern-library#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.1.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

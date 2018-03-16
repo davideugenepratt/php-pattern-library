@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8af9120786d6781ebb176d6aa67e0a02",
+    "content-hash": "27024756ff81605216cf50d200fa2e99",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -366,6 +366,63 @@
                 "twig"
             ],
             "time": "2018-02-08T00:11:23+00:00"
+        },
+        {
+            "name": "pattern-lab/plugin-data-inheritance",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pattern-lab/plugin-php-data-inheritance.git",
+                "reference": "c985247aae0b46a7131d12678f118c25e742cd02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pattern-lab/plugin-php-data-inheritance/zipball/c985247aae0b46a7131d12678f118c25e742cd02",
+                "reference": "c985247aae0b46a7131d12678f118c25e742cd02",
+                "shasum": ""
+            },
+            "require": {
+                "pattern-lab/core": "^2.5.0",
+                "php": ">=5.4"
+            },
+            "type": "patternlab-plugin",
+            "extra": {
+                "patternlab": {
+                    "config": {
+                        "plugins": {
+                            "dataInheritance": {
+                                "enabled": true
+                            }
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PatternLab\\DataInheritance": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Olsen",
+                    "email": "dmolsen@gmail.com",
+                    "homepage": "http://dmolsen.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Data inheritance based on pattern lineage for Pattern Lab.",
+            "homepage": "http://patternlab.io",
+            "keywords": [
+                "data",
+                "inheritance",
+                "lineage",
+                "pattern lab"
+            ],
+            "time": "2016-07-03T00:17:04+00:00"
         },
         {
             "name": "pattern-lab/styleguidekit-assets-default",
