@@ -1,5 +1,5 @@
 <?php
-namespace DavidEugenePratt\PhpPatternLibrary\PatternLibrary\Magento2\View\TemplateEngine;
+namespace DavidEugenePratt\PhpPatternLibrary\Magento2\View\TemplateEngine;
 
 use Magento\Framework\View\TemplateEngine\Php;
 use Magento\Framework\App\Filesystem\DirectoryList;
