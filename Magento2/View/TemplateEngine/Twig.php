@@ -1,5 +1,5 @@
 <?php
-namespace DavidEugenePratt\Twig\View\TemplateEngine;
+namespace DavidEugenePratt\PhpPatternLibrary\PatternLibrary\Magento2\View\TemplateEngine;
 
 use Magento\Framework\View\TemplateEngine\Php;
 use Magento\Framework\App\Filesystem\DirectoryList;

@@ -4,5 +4,14 @@
   "version" : "v0.1.0",
   "require": {
     "php": "^5.3.3 || ^7.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DavidEugenePratt\\PhpPatternLibrary\\": ""
+    }
   }
 }
