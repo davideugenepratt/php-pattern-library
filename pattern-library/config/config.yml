@@ -19,6 +19,7 @@ exportDir: export
 publicDir: public
 sourceDir: source
 defaultPattern: all
+
 defaultShowPatternInfo: false
 ishMinimum: '240'
 ishMaximum: '2600'
